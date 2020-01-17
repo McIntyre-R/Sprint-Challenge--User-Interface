@@ -265,3 +265,77 @@ footer nav a {
 .lowerInfo {
     padding: 3% 2% 6%;
 }
+
+
+
+/* media break */
+
+
+@media only screen and (max-width: 600px) {
+
+
+/* general styling */
+
+.container{
+    width: 100%;
+}
+
+p, h2{
+    text-align: center;
+}
+
+footer nav{
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.topbar{
+    flex-wrap: wrap;
+    
+}
+.topbar img{
+  
+    width:25%;
+   
+}
+
+.top-content .text-container{
+    
+    width: 100%;
+}
+
+.middle-content .boxes .box{
+    width: 100%;
+}
+
+.bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+/* about page */
+
+
+
+.aboutBoxes div {
+    width: 100%;
+}
+
+
+img {
+    width: 100%;
+}
+.aboutBoxes div a{
+    display: block;
+   width: 100%;
+   text-align: center;
+}
+
+
+
+
+}
