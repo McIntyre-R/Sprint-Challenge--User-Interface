@@ -51,6 +51,8 @@ table {
     box-sizing: border-box;
 }
 
+/* code for index */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -66,11 +68,40 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* nav */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    padding: 4% 0 ;
+}
+.topbar a{
+   padding-top: 3%;
+   text-decoration: none;
+   color: black;
+   font-weight: 400;
+}
+
+.topbar a:hover{
+    font-weight: 600;
+}
+
+/* jumbo picture */
+
+.jumbo {
+    padding-bottom: 3%;
+}
+
+
+
+
+/* top content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +115,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* middle content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +145,42 @@ p {
     justify-content: center;
 }
 
+/* middle boxes color */
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+
+
+/* bottom content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +212,56 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* about */
+
+.aboutBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 2px dotted black;
+   
+    padding: 4% 0 0
+}
+.aboutBoxes div{
+    width: 45%;
+    border-bottom: 2px black;
+    margin-bottom: 2%;
+    padding: 2% 0 3% ;
+    border-style: dotted;
+}
+
+.aboutBoxes div img{
+    padding: 2% 0;
+}
+
+.aboutBoxes div p{
+    padding-bottom: 7%;
+}
+
+.aboutBoxes div a{
+    padding: 2% 4%;
+    
+    border: 2px black solid;
+    border-radius: 6px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.aboutBoxes div a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.upperInfo {
+    padding: 3% 2%;
+}
+
+.lowerInfo {
+    padding: 3% 2% 6%;
 }
