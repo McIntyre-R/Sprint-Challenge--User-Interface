@@ -96,6 +96,8 @@ p {
 
 .jumbo {
     padding-bottom: 3%;
+    
+    
 }
 
 
@@ -265,7 +267,54 @@ footer nav a {
 .lowerInfo {
     padding: 3% 2% 6%;
 }
+/* contact page */
+.contactVisit{
+    display: flex;
+    justify-content: flex-start;
+}
+.contactVisit div{
+   padding: 2%;
+   text-align: center;
+   width: 35%;
+}
+.contactVisit h2{
+    font-size: 1.3rem;
+}
+.contactVisit p{
+    font-size: .8rem;
+    
+}
+.contactVisit a{
+   text-decoration: none; 
+   text-transform: capitalize;
+   color: black;
+   font-weight: 700;
+    display: block;
+    margin-top: 6%;
+    padding: 2% 0;
+    border-top: black solid 1px;
+    border-bottom: black solid 1px;
+}
 
+.contactVisit a:hover{
+    text-transform: uppercase;
+}
+.contactVisit iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contactContact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactContact div div{
+    display: flex;
+}
+.contactContact div div img{
+    width: 5%;
+}
 
 
 /* media break */
