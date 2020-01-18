@@ -268,6 +268,8 @@ footer nav a {
     padding: 3% 2% 6%;
 }
 /* contact page */
+
+
 .contactVisit{
     display: flex;
     justify-content: flex-start;
@@ -307,13 +309,53 @@ footer nav a {
 .contactContact {
     display: flex;
     justify-content: space-around;
+    padding: 3%;
+
 }
 
-.contactContact div div{
+.contactEmail{
     display: flex;
+    justify-content: space-evenly;
+
 }
-.contactContact div div img{
-    width: 5%;
+
+.contactChat {
+    display: flex; 
+    justify-content: center; 
+}
+
+
+
+.contactDiv{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactDiv a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3% 3%;
+    border-radius: 4px;
+    margin: auto;
+   }
+
+   .contactDiv a:hover{
+       color: white;
+       background-color: black;
+   }
+
+
+form {
+    display: flex;
+   
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+form input{
+    margin: 2%;
 }
 
 
@@ -380,11 +422,25 @@ img {
 }
 .aboutBoxes div a{
     display: block;
-   width: 100%;
+   width: 80%;
+   margin: 0 auto;
    text-align: center;
 }
 
 
+/* content page */
+
+.contactVisit{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+    border-top: 1px solid black;
+    margin-top: 2%;
+}
+
+.contactContact{
+    flex-wrap: wrap;
+}
 
 
 }
